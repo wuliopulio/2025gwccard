@@ -12,6 +12,7 @@
     width:800px;
     height:470px;
     background-color: white;
+    box-shadow: 7px 3px 10px grey;
 }
 
 #title { 
@@ -66,4 +67,25 @@
     position: relative;
 }
 
- 
+#mainTextBox {
+    position: absolute; 
+    height: 200px;
+}
+
+#sparkleOne {
+    position: absolute;
+    top: 120px;  
+    left: 560px;  
+    width:70px;
+    color: gray; 
+    z-index: 10;  
+}
+
+#sparkleTwo {
+    position: absolute;
+    top: 180px;  
+    right: 570px;  
+    width:70px;
+    color: gray; 
+    z-index: 10;  
+}
